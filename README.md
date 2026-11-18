@@ -13,6 +13,16 @@ O histórico fica em %LOCALAPPDATA%/ControleTempoDev/registros.json. Fechar o ap
 Para editar no Visual Studio, abra `ControleTempo.csproj` com o suporte a desenvolvimento para desktop com .NET.
 
 
+## Gerar o executável (.exe)
+
+No Windows, com o SDK do .NET 10 instalado, execute este comando na raiz do repositório:
+
+```bash
+dotnet publish ControleTempo.csproj -c Release -o ./bin/publicacao
+```
+
+Abra `bin/publicacao/ControleTempo.exe` para iniciar o aplicativo. Para distribuir esta versão, compacte a pasta `bin/publicacao` inteira. O computador que vai executar o aplicativo precisa ter o **.NET Desktop Runtime 10** instalado.
+
 ## Organização do código
 
 - Apresentacao reúne a janela WinForms, os eventos e as mensagens da interface.
