@@ -3,10 +3,10 @@ using System.IO.Compression;
 using System.Text;
 using System.Xml.Linq;
 
-using ControleTempo.Aplicacao;
-using ControleTempo.Dominio;
+using ControleTempo.Application;
+using ControleTempo.Domain;
 
-namespace ControleTempo.Infraestrutura;
+namespace ControleTempo.Infrastructure;
 
 sealed class ExportadorExcel : IExportadorRegistros
 {

@@ -1,6 +1,6 @@
-using ControleTempo.Aplicacao;
-using ControleTempo.Apresentacao;
-using ControleTempo.Infraestrutura;
+using ControleTempo.Application;
+using ControleTempo.Presentation;
+using ControleTempo.Infrastructure;
 
 namespace ControleTempo;
 
@@ -21,6 +21,6 @@ static class Program
             Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
             "ControleTempoDev", "registros.json");
         var controle = new ControleRegistros(new RepositorioJson(caminho), new ExportadorExcel(), TimeProvider.System);
-        Application.Run(new Tela(controle));
+        System.Windows.Forms.Application.Run(new Tela(controle));
     }
 }

@@ -1,8 +1,8 @@
 using System.Text.Json;
-using ControleTempo.Aplicacao;
-using ControleTempo.Dominio;
+using ControleTempo.Application;
+using ControleTempo.Domain;
 
-namespace ControleTempo.Infraestrutura;
+namespace ControleTempo.Infrastructure;
 
 sealed class RepositorioJson(string caminho) : IRepositorioRegistros
 {

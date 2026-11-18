@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using System.Drawing.Drawing2D;
-using ControleTempo.Aplicacao;
+using ControleTempo.Application;
 
-namespace ControleTempo.Apresentacao;
+namespace ControleTempo.Presentation;
 
 sealed class Tela : Form
 {

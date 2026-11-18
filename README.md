@@ -25,10 +25,10 @@ Abra `bin/publicacao/ControleTempo.exe` para iniciar o aplicativo. Para distribu
 
 ## Organização do código
 
-- Apresentacao reúne a janela WinForms, os eventos e as mensagens da interface.
-- Aplicacao contém os casos de uso e os contratos de persistência e exportação.
-- Dominio contém o modelo Registro, usado pelos casos de uso e pela infraestrutura.
-- Infraestrutura implementa a leitura e a gravação do JSON e a exportação XLSX.
+- Presentation reúne a janela WinForms, os eventos e as mensagens da interface.
+- Application contém os casos de uso e os contratos de persistência e exportação.
+- Domain contém o modelo Registro, usado pelos casos de uso e pela infraestrutura.
+- Infrastructure implementa a leitura e a gravação do JSON e a exportação XLSX.
 - Program.cs cria as dependências e abre a janela.
 
 As camadas usam namespaces e pastas no mesmo projeto. A aplicação depende dos contratos que ela define, e Program.cs conecta esses contratos às implementações. O caminho e o formato do histórico local são compatíveis com a versão anterior.

@@ -1,6 +1,6 @@
-using ControleTempo.Dominio;
+using ControleTempo.Domain;
 
-namespace ControleTempo.Aplicacao;
+namespace ControleTempo.Application;
 
 sealed class ControleRegistros(IRepositorioRegistros repositorio, IExportadorRegistros exportador, TimeProvider horario)
 {

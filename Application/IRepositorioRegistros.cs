@@ -1,6 +1,6 @@
-using ControleTempo.Dominio;
+using ControleTempo.Domain;
 
-namespace ControleTempo.Aplicacao;
+namespace ControleTempo.Application;
 
 interface IRepositorioRegistros
 {
