@@ -1,0 +1,7 @@
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+registros.json
+registros.json.tmp
